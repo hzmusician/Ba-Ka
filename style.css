@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Comfortaa:wght@300&family=Handjet:wght@300&family=Inter&family=Montserrat:wght@100&family=Oswald:wght@700&family=Roboto:wght@300;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(to right, #111, #00506d); /*Soldan sağa gradient bir renk paleti oluşturduk*/
+}
+
+.profile-card {
+    position: absolute;
+    background: #195064a2;
+    width: 700px;
+    height: 450px;
+    left: 50%; /*Div ortalama*/
+    top: 50%; /*Div ortalama*/
+    transform: translate(-50%, -50%); /*Div ortalama*/
+    box-shadow: 5px 5px 10px #111;
+    border-radius: 20px;
+}
+
+.profile-card .profile-photo {
+    position: relative;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    float: right;
+    top: 3%;
+    right: 3%;
+    filter: drop-shadow(5px 5px 0px #1a1a1a);
+    border: 3px solid #1a9bca;
+}
+
+.profile-card h2 {
+    position: relative;
+    font-family: comfortaa;
+    font-size: 3rem;
+    padding: 10px;
+    top: 13%;
+    color: #8d83e4;
+    filter: drop-shadow(2px 2px 0px #1c1d24);
+}
+
+.profile-card b:last-child {
+    color: #1a9bca;
+    filter: drop-shadow(2px 2px 0px #ffffff);
+}
+
+.social-logos {
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    bottom: 40%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.social-logos img {
+    width: 50px;
+    margin-left: 20px;
+    float: left;
+    transition: 0.5s;
+    filter: drop-shadow(5px 5px 5px #111);
+}
+
+/*HOVER*/
+.social-logos img:hover {
+    display: block;
+    transform: translateY(-5px);
+}
+
+.social-logos span {
+    font-family: handjet;
+    font-weight: bolder;
+}
+
+/*TECH LOGOS*/
+
+.tech {
+    width: 400px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+}
+
+.tech h2 {
+    position: absolute;
+    top: -60%;
+    font-size: 15px;
+    color: #fff;
+    font-family: comfortaa;
+}
+
+.tech img {
+    margin-left: 35px;
+    user-select: none;
+    filter: drop-shadow(2px 2px 5px #111);
+}
