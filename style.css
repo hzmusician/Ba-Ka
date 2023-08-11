@@ -95,7 +95,7 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    background: #0711e6;
+    background: #0710c5;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -127,4 +127,82 @@
 
 .social-logos img {
     width: 30px;
+}
+
+/*MY PROJECTS*/
+
+.projects {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #0711e6;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.projects h2 {
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: inter;
+    font-weight: bolder;
+    color: #fff;
+}
+/*CARDS*/
+.cards {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cards h2 {
+    color: #444ce9;
+}
+
+.card-1 {
+    width: 300px;
+    height: 350px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+    background: url(/Photos/code.jpg);
+    background-size: cover;
+    box-shadow: 5px 5px 5px #fff;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.card-1:hover {
+    transform: translateY(-10px);
+}
+
+.foot {
+    width: 100%;
+    height: 150px;
+    background: #111111e0;
+    position: absolute;
+    bottom: 0;
+    border-radius: 30px;
+}
+
+.foot h2 {
+    position: relative;
+    font-size: 20px;
+    bottom: 60%;
+}
+
+.foot p {
+    position: relative;
+    font-size: 20px;
+    bottom: 40%;
+    color: #fff;
+    font-family: roboto;
+}
+
+.foot img {
+    width: 50px;
+    position: relative;
+    bottom: 35%;
 }
