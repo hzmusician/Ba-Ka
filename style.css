@@ -108,8 +108,10 @@
     font-weight: bolder;
     position: absolute;
     left: 40%;
+    top: 20%;
     display: flex;
     color: #fff;
+    z-index: 1;
 }
 
 .mini-portfolio img {
@@ -155,12 +157,80 @@
     color: #050a61;
 }
 
+.goals {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #0710c5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.goals h2 {
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: inter;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.goals-text {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+.goals-text p {
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 20%;
+    font-family: inter;
+    text-align: justify;
+    color: #111;
+    z-index: 1;
+    color: #fff;
+}
+
+.goals img {
+    width: 150px;
+    position: absolute;
+    right: 15%;
+    top: 15%;
+}
+
+.goals .goal-cup {
+    position: absolute;
+    display: flex;
+    left: 20%;
+    top: 5%;
+    width: 350px;
+    animation: goals-cup 5s infinite linear;
+}
+
+/*CUP ANIMATION*/
+@keyframes goals-cup {
+    0% {
+        transform: translateY(35%);
+    }
+    50% {
+        transform: translateY(30%);
+    }
+    100% {
+        transform: translateY(35%);
+    }
+}
+
 /*MY PROJECTS*/
 .projects {
     width: 100%;
     height: 100vh;
     position: relative;
-    background: #0710c5;
+    background: #0711e6;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -252,6 +322,51 @@
 .foot img:hover {
     background: #9b9b9b;
     border-radius: 50%;
+}
+
+/*SOCIAL MEDIA*/
+.social-media {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #0710c5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.social-media h2 {
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: inter;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.social-media .my-all-links {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.my-all-links #qr {
+    width: 250px;
+    height: auto;
+    position: relative;
+    left: 10%;
+}
+
+.my-all-links span {
+    position: relative;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 15px;
+    left: -31%;
 }
 
 /*CONTACT ME*/
