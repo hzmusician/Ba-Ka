@@ -295,7 +295,7 @@
 .foot {
     width: 100%;
     height: 150px;
-    background: #111111e0;
+    background: #111111af;
     position: absolute;
     bottom: 0;
     border-bottom-left-radius: 30px;
@@ -324,7 +324,7 @@
 }
 /*GITHUB LOGO HOVER*/
 .foot img:hover {
-    background: #9b9b9b;
+    background: #050a61;
     border-radius: 50%;
 }
 
@@ -333,7 +333,8 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    background: transparent;
+    background: #0712e67c;
+    backdrop-filter: blur(2px);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -516,4 +517,147 @@ input[type=checkbox] + label {
 input[type=checkbox]:checked + label {
   color: #f00;
   font-style: normal;
+}
+
+/*FOOT*/
+.x-foot {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background: #1c1c1c;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;   
+}
+
+.my-social-medias {
+    width: 150px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.my-social-medias ul {
+    list-style-type: none;
+}
+
+.my-social-medias ul li a {
+    text-decoration: none;
+    color: #cccccc;
+    position: relative;
+    font-weight: lighter;
+    top: 10px;
+    left: 10px;
+}
+
+.my-social-medias ul li a:hover {
+    color: #999;
+}
+
+.my-social-medias ul li b {
+    text-decoration: none;
+    color: #cccccc;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+/*FOOT CV*/
+.cv-download {
+    width: 150px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.cv-download ul {
+    list-style-type: none;
+}
+
+.cv-download ul li a {
+    text-decoration: none;
+    color: #cccccc;
+    position: relative;
+    font-weight: lighter;
+    top: 10px;
+    left: 10px;
+}
+
+.cv-download ul li a:hover {
+    color: #999;
+}
+
+.cv-download ul li b {
+    text-decoration: none;
+    color: #cccccc;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+/*FOOT PROJECTS*/
+.coming-soon {
+    width: 260px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.coming-soon ul {
+    list-style-type: none;
+}
+
+.coming-soon ul li {
+    text-decoration: none;
+    color: #cccccc;
+    position: relative;
+    font-weight: lighter;
+    top: 10px;
+    left: 10px;
+}
+
+.coming-soon ul li b {
+    text-decoration: none;
+    color: #cccccc;
+    position: relative;
+}
+
+.foot-logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.foot-logo img {
+    border-radius: 20px;
+    filter: drop-shadow(5px 0px 3px #111);
+}
+
+.made-by {
+    position: absolute;
+    display: flex;
+    right: 3%;
+    bottom: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cccccc;
+    font-weight: lighter;
+    font-size: 15px;
 }
